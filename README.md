@@ -16,6 +16,10 @@ Getting started
 
 - [Download](https://github.com/Kepro/angular-remove-diacritics/archive/master.zip) from github.
 
+### Install from bower
+```
+bower install angular-remove-diacritics
+```
 
 
 ### Load Script
