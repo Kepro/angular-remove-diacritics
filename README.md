@@ -31,11 +31,16 @@ Add the txx.diacritics module as a dependency to your application module:
 ```js
 var myAppModule = angular.module('MyApp', ['txx.diacritics'])
 .controller('myController', function($scope, removeDiacritics) {
+		var myValue = 'my +ľščťžťžáí!@#$#$^&*';
+		var replaceWith = '-';
+		
+		// this will return my +lsctztzai!@#$#$^&*
         $scope.replace = function(){
-            removeDiacritics.replace('my +ľščťžťžáí!@#$#$^&*');
+            return removeDiacritics.replace(myValue);
         };
 
+		// this will return my-lsctztzai-
 		$scope.createSEOname = function(){
-			removeDiacritics.seo('my +ľščťžťžáí!@#$#$^&*');
+			return removeDiacritics.seo(myValue, replaceWith);
 		};
 ```
