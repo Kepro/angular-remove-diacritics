@@ -3,7 +3,7 @@
  */
 
 angular
-	.module('txx.diacritics')
+	.module('txx.diacritics', [])
 	.service('removeDiacritics', function () {
 		var MAP = [
 			{
