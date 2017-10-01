@@ -21,6 +21,11 @@ Getting started
 bower install angular-remove-diacritics
 ```
 
+### Install from npm
+
+```
+npm install angular-remove-diacritics
+```
 
 ### Load Script
 Load the script file: `remove-diacritics.js` in your application:
@@ -37,7 +42,7 @@ var myAppModule = angular.module('MyApp', ['txx.diacritics'])
 .controller('myController', function($scope, removeDiacritics) {
 		var myValue = 'my +ľščťžťžáí!@#$#$^&*';
 		var replaceWith = '-';
-		
+
 		// this will return my +lsctztzai!@#$#$^&*
         $scope.replace = function(){
             return removeDiacritics.replace(myValue);

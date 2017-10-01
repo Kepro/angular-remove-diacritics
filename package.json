@@ -1,0 +1,22 @@
+{
+  "name": "angular-remove-diacritics",
+  "version": "1.0.0",
+  "description": "angular-remove-diacritics",
+  "main": "remove-diacritics.js",
+  "authors": [
+    "kepro <kepro@txx.sk>"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kepro/angular-remove-diacritics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kepro/angular-remove-diacritics/issues"
+  },
+  "homepage": "https://github.com/kepro/angular-remove-diacritics#readme"
+}
