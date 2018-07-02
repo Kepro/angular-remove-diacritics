@@ -1,6 +1,8 @@
 angular-remove-diacritics
 =========================
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/Kepro/angular-remove-diacritics.svg)](https://greenkeeper.io/)
+
 Overview
 --------
 
